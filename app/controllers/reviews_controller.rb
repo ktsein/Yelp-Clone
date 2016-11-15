@@ -8,6 +8,11 @@ class ReviewsController < ApplicationController
   def create
     @restaurant = Restaurant.find(params[:restaurant_id])
     @restaurant.reviews.create(review_params)
+    redirect_to '/restaurants'
+  end
+
+  def show
+    p @restaurant.reviews(review_params).thoughts
   end
 
   private
