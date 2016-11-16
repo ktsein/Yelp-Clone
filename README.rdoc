@@ -1,5 +1,5 @@
 == README
-```
+``
 As a user
 So I can choose a restaurant
 I want to be able to see a list of restaurants
@@ -19,4 +19,4 @@ I want to be able to add a restaurant with name, rating and description
 As a user
 So I can update restaurant details
 I want to be able to edit and delete restaurants
-```
+``
